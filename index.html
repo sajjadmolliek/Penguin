@@ -17,14 +17,24 @@
 </head>
 <body>
     <!-- Start Header Section -->
-    <header class="bg-[#FFFBF0] px-4 md:px-32 py-28">
+    <header class="bg-[#FFFBF0] px-4 md:px-32 py-20">
         <!-- Start Navbar Section -->
-        <nav>
-
+        <nav class="flex lg:flex-row md:flex-row flex-col h-16 justify-around items-start ">
+           <div>
+            <img class="lg:w-[30%] md:w-[80%] w-[80%]" src="icons/logo.png" alt="Logo">
+           </div>
+           <div>
+            <ul class="flex gap-8 font-medium justify-center items-center">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Product</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>                                                           
+           </div>
         </nav>
         <!-- End Navbar Section -->
         <!-- Start Banner Section_01 -->
-        <div class="flex flex-col md:flex-row justify-between items-center">
+        <section class="section_1 md:my-0 lg:my-0 my-20  flex flex-col md:flex-row justify-between items-center">
             <div class="space-y-3">
                 <h1 class="text-7xl font_bebas  uppercase"><span class="text-[#FABE4C]">Be the Penguins</span><br>
                     of Winter</h1>
@@ -32,7 +42,7 @@
                     Lorem Ipsum is simply dummy text of the printing 
 and typesetting industry.
                 </p>
-                <button class="py-4 px-9 flex bg-gradient-to-r from-[#A4BC46] to-[#85A019] bg-blue-400 rounded-xl uppercase text-white font-medium">
+                <button class="py-4 px-9 flex bg-gradient-to-b from-[#A4BC46] to-[#85A019] bg-blue-400 rounded-xl uppercase text-white font-medium">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-6 h-6">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
                       </svg>
@@ -43,7 +53,7 @@ and typesetting industry.
             <div>
                 <img src="images/model.png" alt="">
             </div>
-        </div>
+        </section>
         <!--End Banner Section_01 -->
     </header>
     <!-- End Header Section -->
@@ -204,20 +214,39 @@ and typesetting industry.
         </section>
         <!-- End Man jacket Section_3 -->
         <!-- End Section_3 -->
-        <!-- Start Section_4 -->
-        <section>
-            <div>
-                <!-- text div -->
-                <div>
-                    <!-- text 01 -->
 
+        <!-- Start Section_4 -->
+        <section class="section_4 flex-col md:flex-col lg:flex-row flex gap-[5rem] mt-24">
+            <div class="flex justify-center items-center gap-[1rem] flex-col">
+                <div class="card rounded-2xl flex justify-center items-center gap-[2rem] w-[75%]  card-side bg-base-100 border border-gray-100 shadow-lg">
+                    <figure class="w-[16%]"><img class="w-full" src="icons/house.png" alt="House"/></figure>
+                    <div class="card-body p-8">
+                      <h2 class="font-bold text-2xl ">Find the Perfect Fit</h2>
+                      <p class="w-[17rem]">Everybody is different, which is why we
+                        offer styles for every body.</p>
+                    </div>
                 </div>
-                <!-- img div -->
-                <div>
-                    <img src="" alt="">
+                <div class="card rounded-2xl flex justify-center items-center gap-[2rem] w-[75%]  card-side bg-base-100 border border-gray-100 shadow-lg">
+                    <figure class="w-[16%]"><img class="w-full" src="icons/house.png" alt="House"/></figure>
+                    <div class="card-body p-8">
+                      <h2 class="font-bold text-2xl ">Find the Perfect Fit</h2>
+                      <p class="w-[17rem]">Everybody is different, which is why we
+                        offer styles for every body.</p>
+                    </div>
+                </div>
+                <div class="card rounded-2xl flex justify-center items-center gap-[2rem] w-[75%]  card-side bg-base-100 border border-gray-100 shadow-lg">
+                    <figure class="w-[16%]"><img class="w-full" src="icons/house.png" alt="House"/></figure>
+                    <div class="card-body p-8">
+                      <h2 class="font-bold text-2xl ">Find the Perfect Fit</h2>
+                      <p class="w-[17rem]">Everybody is different, which is why we
+                        offer styles for every body.</p>
+                    </div>
                 </div>
             </div>
-        </section>
+            <div class="lg:w-[40%] md:w-full w-full">
+                <img src="images/shopping.png" alt="Shopping">
+            </div>
+        </section>
         <!-- End Section_4 -->
 
     </main>
